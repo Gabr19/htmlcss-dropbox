@@ -115,8 +115,110 @@ main{
 
 
 
+.riga-uno-dropbox-business{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.riga-uno-dropbox-business > div{
+    width: 30%;
+    height: 300px;
+    background-color: darkseagreen;
+    border: 1px solid black;
+}
+
+.riga-due-dropbox-business{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.riga-due-dropbox-business > div{
+    width: 30%;
+    height: 300px;
+    background-color: darkseagreen;
+    border: 1px solid black;
+}
+
+.scopri-di-più{
+    width: 100%;
+    min-height: 200px;
+    background-color: lightblue;
+}
 
 
+.quadrati-colorati{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.quadrato-grande-sx{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 0;
+}
+
+.quadrati-colorati > div{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 300px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+
+
+.quadrato-grande-sx > div{
+    display: inline-block;
+
+    background-color: blue;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    margin-top: 0;
+}
+
+
+
+
+.quadrato-grande-dx{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 0;
+}
+
+
+.quadrato-grande-dx > div{
+    display: inline-block;
+
+    background-color: blue;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    margin-top: 0;
+}
+
+
+
+.prova-gratuita{
+    width: 100%;
+    min-height: 200px;
+    background-color: green;
+}
+
+
+.faq{
+    width: 100%;
+    min-height: 200px;
+    background-color: lightcyan;
+
+}
 
 /* FINE MAIN */
 
@@ -136,6 +238,25 @@ footer{
     flex-direction: column;
     align-items: center;
     background-color: blue;
+}
+
+.up-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-footer > div{
+
+    width: 18%;
+    min-height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.bottom-footer{
+    min-height: 100px;
+    background-color: brown;
+    
 }
 
 
