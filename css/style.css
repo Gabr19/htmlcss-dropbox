@@ -8,7 +8,7 @@ body{
     width: 100vw;
 }
 
-.vw-60{
+.vw-60{    
     width: 60vw;
     min-height: 300px;
     background-color: burlywood;
@@ -75,4 +75,69 @@ header{
 }
 /* FINE HEADER */
 
-/*  */
+/* MAIN */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colonne-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonne-main > div{
+    background-color: blue;
+    width: 30%;
+    min-height: 300px;
+    display: inline-block;
+}
+
+.enterprise{
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+.left-entra-in-contatto{
+    display: inline-block;
+    width: 60%;
+    min-height: 300px;
+    background-color: chartreuse;
+}
+
+.right-entra-in-contatto{
+    display: inline-block;
+    width: 39%;
+    min-height: 300px;
+    background-color: goldenrod;
+}
+
+
+
+
+
+
+/* FINE MAIN */
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+
+/* FINE FOOTER*/
+
