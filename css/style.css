@@ -60,6 +60,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 30;
     top: 0;
     left: 0;
 
@@ -360,7 +361,6 @@ main{
     width: calc(100% / 3);
     height: 300px;
     /* background-color: blue; */
-    border: 1px solid black;
 }
 
 
@@ -374,20 +374,60 @@ main{
     margin-top: 0;
 }
 
+/* QUADRATI PICCOLI COLORATI */
+
 .quadrato-piccolo-verde{
     background-color: #a2d39b;
     position: relative;
 }
 
-.quadrato-piccolo-verde > img{
+.loghi-quadrati-colorati{
     position: absolute;
     left: calc(50% - 45px);
     top: calc(50% - 45px);
     height: 90px;
     width: 90px;
-    /* color: white; */
+    color: white;
 }
 
+.quadrato-piccolo-bordeau{
+    background-color: #61082b;
+    position: relative;
+}
+
+.quadrato-piccolo-blu{
+    background-color: #0093ce;
+    position: relative;
+}
+
+.quadrato-piccolo-rosso{
+    background-color: #ff1c1c;
+    position: relative;
+}
+
+
+/* QUADRATO CENTRALE */
+
+.quadrato-grande-centro{
+    background-color: #f5f5f5;
+}
+
+.immagine-quadrato-grande-centro{
+    position: relative;
+}
+
+.quadrato-grande-centro > img{
+    background-size: contain;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+
+
+
+/* QUADRATO DX */
 
 .quadrato-grande-dx{
     width: calc(100% / 3);
@@ -396,39 +436,72 @@ main{
     font-size: 0;
 }
 
-/* QUADRATO CENTRALE */
 
-
-
-
-
-
-/* QUADRATO DX */
 .quadrato-grande-dx > div{
     display: inline-block;
 
-    background-color: blue;
+    /* background-color: blue; */
     border: 1px solid black;
     width: 50%;
     height: 50%;
     margin-top: 0;
 }
 
+.quadrato-piccolo-rosso-scuro{
+    background-color: #ff1c1c;
+    position: relative;
+}
 
+.quadrato-piccolo-celeste{
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.quadrato-piccolo-blu-scuro{
+    background-color: #0d2481;
+    position: relative;
+}
+
+.quadrato-piccolo-giallo{
+    background-color: #ffd830;
+    position: relative;
+}
+
+
+
+/* PROVA GRATUITA */
 
 .prova-gratuita{
     width: 100%;
     min-height: 200px;
-    background-color: green;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b4d0e7;
 }
 
+.left-prova-gratuita > h2{
+    color: #61082b;
+    font-size: 30px;
+}
+
+/* FAQ */
 
 .faq{
-    width: 100%;
     min-height: 200px;
-    background-color: lightcyan;
-
+    /* background-color: GREEN; */
 }
+
+.righe{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
 
 /* FINE MAIN */
 
