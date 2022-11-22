@@ -1,4 +1,4 @@
-*{
+S*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -35,6 +35,13 @@ button{
     color: white;
     padding: 10px;
     border: none;
+}
+
+.white-button{
+    border: 1px solid black;
+    padding: 10px;
+    color: #6e6e6e;
+    background-color: white;
 }
 
 /* HEADER */
@@ -153,6 +160,8 @@ main{
     align-items: center;
 }
 
+
+/* 3 COLONNE */
 .piano-business{
     margin-bottom: 20px;
 }
@@ -195,29 +204,68 @@ main{
 
 
 
-
-
-
-
-
+/* CASELLA SOTTO 3 COLONNE */
 
 .enterprise{
     min-height: 200px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    border: 1px solid black;    
+
+}
+
+.intestazione-casella-enterprise{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.contenuto-casella-enterprise{
+    padding: 20px 20px;
+
+}
+
+.prima-riga-contenuto-casella-enterprise{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-casella-enterprise{
+    display: flex;
+    align-items: center;
+}
+
+.right-casella-enterprise{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ENTRA IN CONTATTO */
+
+.entra-in-contatto{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
 }
 
 .left-entra-in-contatto{
     display: inline-block;
     width: 60%;
     min-height: 300px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .right-entra-in-contatto{
     display: inline-block;
-    width: 39%;
-    min-height: 300px;
-    background-color: goldenrod;
+    width: 40%;
+    height: 300px;
+    /* background-color: goldenrod; */
+    padding: 0 20px;
 }
 
 
