@@ -1,4 +1,4 @@
-S*{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -269,33 +269,69 @@ main{
 }
 
 
+/* DROPBOX BUSINESS */
 
+/* RIGA UNO */
 .riga-uno-dropbox-business{
     width: 100%;
+    min-height: 300px;
+
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
+
 .riga-uno-dropbox-business > div{
     width: 30%;
-    height: 300px;
+    min-height: 300px;
     background-color: darkseagreen;
     border: 1px solid black;
 }
+
+.img-dropbox-business{
+    height: 40%;
+    width: 100%;
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.testo-dropbox-business{
+    min-height: 400px;
+    width: 100%;
+}
+
+
+/* RIGA DUE */
 
 .riga-due-dropbox-business{
     width: 100%;
+    min-height: 300px;
+
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
+
 
 .riga-due-dropbox-business > div{
     width: 30%;
-    height: 300px;
+    min-height: 300px;
     background-color: darkseagreen;
     border: 1px solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .scopri-di-più{
     width: 100%;
