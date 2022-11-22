@@ -520,28 +520,39 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    background-color: black;
+    color: white;
 }
 
 .up-footer{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin: 40px 0;
 }
 
 .up-footer > div{
 
     width: 18%;
     min-height: 200px;
-    background-color: orange;
+    /* background-color: orange; */
     border: 1px solid black;
 }
 
 .bottom-footer{
     min-height: 100px;
-    background-color: brown;
-    
+    /* background-color: brown; */
+    margin-top: 40px;
 }
+
+.up-footer > div > h3{
+    margin-bottom: 20px;
+}
+
+.up-footer > div > ul > li{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
 
 
 /* FINE FOOTER*/
