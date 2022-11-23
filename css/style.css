@@ -59,28 +59,34 @@ header{
     top: 0;
     left: 0;
     z-index: 30;
-
-
-
 }
 
-
+.left-header{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .left-header > div {
-    display: inline-block;
     min-height: 50px;
     min-width: 50px;
     /* background-color: orange; */
-    vertical-align: middle;
     color: #6e6e6e;
     margin-right: 10px;
     padding: 5px;
+    display: flex;
+    align-items: center;
+}
 
-
+.right-header{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .right-header > div {
-    display: inline-block;
     min-height: 50px;
     min-width: 50px;
     /* background-color: red; */
@@ -88,6 +94,8 @@ header{
     color: #6e6e6e;
     margin-right: 10px;
     padding: 5px;
+    display: flex;
+    align-items: center;
 
 
 
