@@ -87,8 +87,21 @@
     <main>
         <section class="vw-60 piano-business">
             <h1>Trova il piano business che fa per te</h1>
-            <input type="checkbox" name="" id="">Fatturazione mensile
-            <input type="checkbox" name="" id="">Fatturazione annuale
+            <div class="button-piano-business">
+                    <div class="button-selez">
+                    </div>
+                    <p>
+                        Fatturazione mensile
+                    </p>
+                    
+
+                    <div class="button-non-selez">
+                    </div>
+                    <p>
+                        Fatturazione annuale
+                    </p>
+            </div>
+
             
             
             
@@ -98,7 +111,9 @@
                 <div class="professional">
                     <div class="intestazione-colonne">
                         <div class="icone-e-text">
-                            <i class="fa-solid fa-user"></i>
+                            <div class="icone-colonne">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
                             <p>Singolo</p> 
                         </div>
                     </div>
@@ -108,9 +123,29 @@
                             <p> <strong>$ 12.00</strong> </p>
                             <p>/mese</p>
                         </div>
-                        <p> <i class="fa-solid fa-user"></i> utente</p>
-                        <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
-                        <p><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+
+                        <p> <i class="fa-solid fa-user"></i> Utente</p>
+
+                        <div class="icon-folder-colonne">
+                            <div>
+                                <i class="fa-solid fa-folder"></i>
+                            </div>
+                            <div>
+                                <p> 5 TB di spazio di archiviazione sicuro</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-share-colonne">
+                            <div>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div>
+                                <p> Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+                            </div>
+                        </div>
+
+
+
                         <div>
                             <button>Prova gratis per 30 giorni</button>
                         </div>
@@ -130,7 +165,12 @@
                 <div class="advanced">
                     <div class="professional">
                         <div class="intestazione-colonne">
-                            <i class="fa-solid fa-user"></i>Team
+                            <div class="icone-e-text">
+                                <div class="icone-colonne">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <p>Team</p> 
+                            </div>                        
                         </div>
                         <div class="contenuto-colonne">
                             <h3>Professional</h3>
@@ -138,9 +178,25 @@
                                 <p> <strong>$ 12.00</strong> </p>
                                 <p>/mese</p>
                             </div>
-                            <p> <i class="fa-solid fa-user"></i> utente</p>
-                            <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
-                            <p><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+                            <p> <i class="fa-solid fa-user"></i> Utente</p>
+
+                            <div class="icon-folder-colonne">
+                                <div>
+                                    <i class="fa-solid fa-folder"></i>
+                                </div>
+                                <div>
+                                    <p> 5 TB di spazio di archiviazione sicuro</p>
+                                </div>
+                            </div>
+    
+                            <div class="icon-share-colonne">
+                                <div>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div>
+                                    <p> Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+                                </div>
+                            </div>
                             <div>
                                 <button>Prova gratis per 30 giorni</button>
                             </div>
@@ -164,17 +220,37 @@
                 <div class="enterpris">
                     <div class="professional">
                         <div class="intestazione-colonne">
-                            <i class="fa-solid fa-user"></i>Azienda
-                        </div>
+                            <div class="icone-e-text">
+                                <div class="icone-colonne">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <p>Azienda</p> 
+                            </div>                        </div>
                         <div class="contenuto-colonne">
                             <h3>Professional</h3>
                             <div>
                                 <p> <strong>$ 12.00</strong> </p>
                                 <p>/mese</p>
                             </div>
-                            <p> <i class="fa-solid fa-user"></i> utente</p>
-                            <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
-                            <p><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+                            <p> <i class="fa-solid fa-user"></i> Utente</p>
+
+                            <div class="icon-folder-colonne">
+                                <div>
+                                    <i class="fa-solid fa-folder"></i>
+                                </div>
+                                <div>
+                                    <p> 5 TB di spazio di archiviazione sicuro</p>
+                                </div>
+                            </div>
+    
+                            <div class="icon-share-colonne">
+                                <div>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div>
+                                    <p> Funzioni di produttività premium e condivisione  file semplice e sicura</p>
+                                </div>
+                            </div>
                             <div>
                                 <button>Prova gratis per 30 giorni</button>
                             </div>
@@ -198,8 +274,10 @@
         <section class="vw-60 enterprise">
             <div class="intestazione-casella-enterprise">
                 <div class="icone-e-text">
-                    <i class="fa-solid fa-building"></i>
-                    <p>Team</p> 
+                    <div class="icone-colonne">
+                        <i class="fa-solid fa-building"></i>
+                </div>
+                <p>Team</p> 
                 </div>
 
             </div>
@@ -210,9 +288,9 @@
                             <h3>
                                 Enterprise
                             </h3>    
-                            <h4>
+                            <h5>
                                 Contatta l'ufficio vendite per i prezzi
-                            </h4>
+                            </h5>
                             <p>
                                 Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
                             </p>
@@ -229,8 +307,9 @@
             </div>
         </section>
 
-        <!-- ENTRA IN CONTATTO -->
 
+
+        <!-- ENTRA IN CONTATTO -->
         <section class="vw-60 entra-in-contatto">
             <section class="left-entra-in-contatto">
             </section>
@@ -246,9 +325,9 @@
 
         <section class="vw-60 dropbox-business">
             <div>
-                <h2>
+                <h1>
                 Esegui più operazioni con dropbox business
-                </h2>
+                </h1>
             </div>
 
             <!-- RIGA UNO -->

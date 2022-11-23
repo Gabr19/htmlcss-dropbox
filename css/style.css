@@ -199,17 +199,45 @@ main{
     align-items: center;
 }
 
+.piano-business{
+    margin: 20px;
+}
+
+.piano-business > h1{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.button-piano-business{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button-selez{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid #0061ff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.button-non-selez{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #6e6e6e;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+
 
 /* 3 COLONNE */
-.piano-business{
-    margin-bottom: 20px;
-}
-
-.piano-business > *{
-    margin-bottom: 20px;
-}
-
-
 .colonne-main{
     display: flex;
     justify-content: space-between;
@@ -230,7 +258,7 @@ main{
 }
 
 .professional > *{
-    display: block;
+    display: inline-block;
 }
 
 .intestazione-colonne{
@@ -245,11 +273,34 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.icone-colonne{
+    margin-right: 5px;
 }
 
 .fa-check{
     color: #0061ff;
+}
+
+.icon-folder-colonne{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-folder-colonne > :first-child{
+    margin-right: 5px;    
+}
+
+.icon-share-colonne{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-share-colonne > :first-child{
+    margin-right: 5px;    
 }
 
 
@@ -287,7 +338,7 @@ main{
     margin-bottom: 10px;
 }
 
-.left-casella-enterprise > h4{
+.left-casella-enterprise > h5{
     margin-bottom: 30px;
 }
 
@@ -306,7 +357,7 @@ main{
     display: flex;
     align-items: center;
     width: 70%;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .left-entra-in-contatto{
@@ -321,24 +372,33 @@ main{
 }
 
 .right-entra-in-contatto{
-    display: inline-block;
     width: 40%;
     height: 300px;
     /* background-color: goldenrod; */
     padding: 0 20px;
+    margin-top: 30px;
+}
+
+.right-entra-in-contatto > *{
+    margin-top: 20px;
 }
 
 
 /* DROPBOX BUSINESS */
 
 /* RIGA UNO */
+
+.dropbox-business{
+    margin-top: 100px;
+}
+
 .riga-uno-dropbox-business{
     width: 100%;
     min-height: 300px;
 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 
