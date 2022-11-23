@@ -10,7 +10,7 @@ body{
 
 .vw-80{    
     width: 80vw;
-    min-height: 300px;
+    min-height: 500px;
     /* background-color: lightcoral; */
 }
 
@@ -69,15 +69,22 @@ header{
 }
 
 .left-header > div {
-    min-height: 50px;
+    height: 100%;
     min-width: 50px;
     /* background-color: orange; */
     color: #6e6e6e;
     margin-right: 10px;
-    padding: 5px;
     display: flex;
     align-items: center;
 }
+
+.left-header > div:not(:first-child):hover {
+    border-bottom: 2px solid black;
+    top: 100%;
+    left: 0;
+}
+
+
 
 .right-header{
     height:100px;
@@ -87,20 +94,20 @@ header{
 }
 
 .right-header > div {
-    min-height: 50px;
+    height: 100%;
     min-width: 50px;
     /* background-color: red; */
     vertical-align: middle;
     color: #6e6e6e;
     margin-right: 10px;
-    padding: 5px;
     display: flex;
     align-items: center;
-
-
-
-
 }
+
+.right-header > div:not(:last-child):hover {
+    border-bottom: 2px solid black;
+}
+
 
 .button-header > button{
     background-color: #0061ff;
@@ -110,15 +117,32 @@ header{
 }
 
 
+
+
+
 /* BOTTOM-HEADER */
 .bottom-header{
     background-color: #b4d0e7;
-    min-height: 400;
+    height: 600;
     display: flex;
     justify-content: center ;
     align-items: center;
     margin: 100px 0;
 }
+
+
+
+.container-large-bottom-header{
+    height: 100%;
+    width: 80vw;
+    position: relative;
+}
+
+.container-small-bottom-header{
+    position: absolute;
+    top: 150px;
+}
+
 
 .bottom-header > .vw-80 > div{
     display: inline-block;
@@ -127,15 +151,16 @@ header{
 }
 
 .paragrafo-header > *{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .intestazione-header{
     width: 100%;
     min-height: 50px;
     /* background-color: bisque; */
-    font-size: 2em;
-    margin-bottom: 30px;
+    font-size: 3em;
+    padding: 0 ;
+
 }
 
 .paragrafo-header{
@@ -143,15 +168,13 @@ header{
     min-height: 200px;
     /* background-color: aquamarine; */
     vertical-align: top;
+    display: inline-block;
 }
 
-
-
-
-
 .imagine-header{
+    display: inline-block;
     width: 65%;
-    height: 300px;
+    height: 500px;
     /* background-color: gold; */
     background-image: url(../img/jumbo.png);
     background-size: contain;
